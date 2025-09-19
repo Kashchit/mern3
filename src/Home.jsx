@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import Button from './Button'
 import './Home.css'
 
 function Home(){
@@ -13,7 +14,7 @@ function Home(){
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
-
+        <Button text = 'Home button '/>
     <main className="main-content">
         <h1>Welcome to My Website</h1>
         <p>This is a simple page design with a responsive navbar and a content section.</p>
