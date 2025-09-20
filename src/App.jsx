@@ -4,6 +4,7 @@ import Home from './Home'
 import About from './About'
 import Test from './Test'
 import UseState from './UseState'
+import LearningUseEffect from './UseEffect'
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/test' element={<Test/>} />
-        <Route path='/useState' element={<UseState/>}/>
+        <Route path='/use-State' element={<UseState/>}/>
+        <Route path='/use-Effect' element={<LearningUseEffect/>}/>
       </Routes>
     </BrowserRouter>
   )
